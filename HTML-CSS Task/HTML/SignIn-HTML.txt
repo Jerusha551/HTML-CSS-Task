@@ -1,0 +1,37 @@
+<html>
+    <head>
+    </head>            
+    <body>
+        <div id="container">
+            <div id="login">
+              
+              <header>
+                <strong>Sign in</strong>
+              </header>
+              
+			              <form class="loginform">
+				                <input type="text" name="email" class="entry" placeholder="mail@example.com">
+				                <input type="password" name="password" class="entry" placeholder="password"><br>
+                
+				                				  <input type="submit" class="login" value="SIGN IN">
+                 
+                      <p style="text-align:left"> Forgot your password?</p>
+                      <p style="text-align:center"> OR  </p>
+              
+              <div class="social-login">
+                <button class="btn facebook-btn social-btn" type="button"><span> f </span> </button>
+                <button class="btn google-btn social-btn" type="button"><span> g </span> </button>
+                <button class="btn epam-login" type="button"><span> < EPAM LOGIN > </span> </button>
+            </div>
+                      
+                      
+                 
+			              </form>
+              
+            
+              
+              
+            </div>
+        </div>
+    </body>
+</html>

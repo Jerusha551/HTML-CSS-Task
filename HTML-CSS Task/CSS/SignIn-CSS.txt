@@ -1,0 +1,90 @@
+html{height: 100%; 
+  background: url(http://prizinha.com/wp-content/uploads/2014/03/living-room-decoration-yellow.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container{
+   position: absolute;
+   top: 50%;
+   margin-top: -200px;/* half of #content height*/
+   left: 0;
+   width: 100%;
+}
+#login {
+   width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 395px;
+  background-color:white;
+}
+
+header{
+  width: inherit;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  color: white;
+  background-color: #4dd2ff;
+  top: 0;
+  position: absolute;
+ font-size: 25px;
+}
+
+.loginform{
+  width: inherit; 
+  height: 170px;
+  padding-top: 80px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.entry{
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #e1e1e1;
+  padding-left: 10px;
+  border:none;
+}
+
+::-webkit-input-placeholder { color: black;}
+:-moz-placeholder {color: black;  }
+::-moz-placeholder { color: black;  }
+:-ms-input-placeholder {  color: black;  }
+
+.login{
+  background-color: #4dd2ff;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+
+.facebook-btn{ 
+  background-color:#3C589C;
+color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 25px
+}
+
+.google-btn{ 
+  background-color: #DF4B3B;
+color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 25px
+}
+
+.epam-login{ 
+  background-color: #99ff33;
+color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 25px
+}
